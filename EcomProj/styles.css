@@ -62,10 +62,10 @@ header .fa-bars{
     cursor: pointer;
     border: .1rem solid rgba(0,0,0,.3);
 }
-.home-content{
+.home .home-content{
     display: flex;
     justify-content: space-between;
-    align-self: start;
+    align-content: center;
     
 }
 .home{
@@ -73,9 +73,7 @@ header .fa-bars{
     align-items: center;
     
     min-height: 40vh;
-    background:url(Static/bg.png) no-repeat;
-    background-size: cover ;
-    background-position: center; 
+    background-color: #C1DCDC;
 }
 
 .home .content{
@@ -141,6 +139,19 @@ header .fa-bars{
     text-align: center;
 }
 
+.about .content .box{
+    height:400px; 
+    width: 300px;
+    display: block;
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.about .content .box h3{
+    color: #333;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
 
 
 
@@ -157,6 +168,57 @@ header .fa-bars{
     padding:3rem 2rem;
     position: relative;
     background-color: #C1DCDC;
+}
+
+.footer{
+    background-color: #C1DCDC;
+    
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .container .script {
+    flex:1 1 25rem;
+    margin-left: 30px;
+    padding: 1rem 0;
+}
+
+.footer .container .script p{
+    
+    margin-top: 100px;
+}
+
+.footer .container .script h3{
+    color: #333;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+
+.footer .container .content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .container .content .box {
+    flex:1 1 25rem;
+    margin: 10px;
+}
+
+.footer .container .content .box h3{
+    color: #333;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.footer .container .content .box a{
+    display: block;
+    color: #666;
+    font-size: 1rem;
+    padding: 1rem 0;
 }
 
 
